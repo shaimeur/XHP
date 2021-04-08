@@ -1,0 +1,11 @@
+.btn {
+    display: inline-block;
+    background-color:#2a9d8f;
+    width: 100px;
+    height: 100px;
+  }
+
+
+  .btn--secondary {
+    background-color: #d62828;
+  }

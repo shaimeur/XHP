@@ -1,0 +1,17 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+
+section{
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url(./adomas-aleno-4vrZpOo7fTc-unsplash.jpg);
+    background-size: cover;
+}
+h1 {
+    font-size: 100px;
+    color: white;
+}

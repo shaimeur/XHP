@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #edeeef;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    border-radius: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 900px;
+    position: relative;
+    left: 500px;
+}
+.header {
+    position: relative;
+    left: 200px;
+    width: 300px;
+    .header__title {
+        position: relative;
+        left: 20px;
+    }
+    .header__line {
+        height: 6px;
+        width: 78px;
+        background-color: #fca737;
+        border: none;
+        position: relative;
+        left: 115px;
+        margin-bottom: 10px;
+     }
+     .header__subtitle {
+        position: relative;
+        left: 98px;
+        width: 120px;
+    }
+}
+
+
+
+.card {
+    background-color:#ffffff;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    margin-top: 30px;
+    
+
+        .card__profiel {
+            width: 50%;
+            position: relative;
+            left: 50px;
+            top: 70px;
+            .person-info {
+
+                .person-info__name {
+                    position: relative;
+                    right: 10px;
+                }
+                .person-info__line {
+                    height: 6px;
+                    width: 60px;
+                    background-color: #fca737;
+                    border: none;
+                    position: relative;
+                    left: 20px;
+                }
+            .person-info__job {
+                position: relative;
+                left: 25px;
+                top: 10px;
+            }
+        }
+        
+    }
+    .card__text {
+        position: relative;
+        right: 60px;
+        top: 68px;
+    }
+ 
+ }
+
