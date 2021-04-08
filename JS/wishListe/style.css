@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2185f6;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+header {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+}
+
+.wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section {
+    max-width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 25%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+input {
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: rgba(252, 153, 20, 0.8);
+    border-radius: 5px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.background--lightgreen {
+    max-width: 50%;
+    background-color: #DBF4E3;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 6px 23px -2px rgba(17, 128, 109, 0.91);
+    -moz-box-shadow: 4px 6px 23px -2px rgba(17, 128, 109, 0.91);
+    box-shadow: 4px 6px 23px -2px rgba(17, 128, 109, 0.91);
+    opacity: .7;
+}
+
+ul li {
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+/*this class is used by javascript to strike an element if it's done by the user*/
+.done {
+    text-decoration: line-through;
+    color:red;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div {
+    display: flex;
+}
+
+.li-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
